@@ -16,10 +16,18 @@
     max-width: 100%;
     object-fit: contain;
     filter: brightness(0) invert(1);
-    transition: .15s ease filter;
+    transform: translateZ(0);
+    transition: .15s ease transform;
+    transform-origin: center;
 
     &:hover {
-        filter: none;
+        transform: rotate(3deg);
+    }
+}
+
+.partners__list-item:nth-child(2n) .partners__logo {
+    &:hover {
+        transform: rotate(-3deg);
     }
 }
 
