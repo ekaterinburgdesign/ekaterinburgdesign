@@ -51,12 +51,6 @@ export default function Home({ projects, team, partners }) {
         <section className={'section'} id="projects">
           <div className={'section-projects'}>
             <h2 className={'section-heading section-heading_projects emerge'} data-expose="true">Дизайн-<br />система</h2>
-            <p className={'section-heading_caption emerge'} data-expose="true">
-              Мы задаём стандарты дизайна Екатеринбурга и разрабатываем городские решения на собственном производстве. Умеем вести комплексные проекты: от разработки архитектурных форм до развития территорий.
-              <br />
-              <br />
-              Мы уникальны, кроме нас так никто не может.
-            </p>
           </div>
           <PostPreviewGrid posts={projects} />
         </section>
