@@ -16,6 +16,16 @@
   }
 }
 
+.post-preview-grid__description {
+  position: absolute;
+  font-size: 3.6vmin;
+  padding: 3.5em;
+}
+
+.post-preview-grid__description-background svg {
+  position: absolute;
+}
+
 @media screen and (min-width: 560px) {
   .post-preview-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -30,16 +40,28 @@
   .post-preview-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .post-preview-grid__description {
+    font-size: 2.3vmin;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .post-preview-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .post-preview-grid__description {
+    font-size: 1.8vmax;
+  }
 }
 
 @media screen and (min-width: 1800px) {
   .post-preview-grid {
     grid-template-columns: repeat(5, 1fr);
+  }
+
+  .post-preview-grid__description {
+    font-size: 1.45vmax;
   }
 }

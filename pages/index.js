@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-
 import { getNotionDatabaseItems } from '../core/notion'
 
 import Head from 'next/head'
